@@ -1,0 +1,42 @@
+/** Label / Input Form CSS **/
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+/** Submit Button CSS **/
+
+.theButton {
+    display: flex;
+    justify-self: center;
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 8px;
+    }
+
+#puppies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+.puppy-card {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    border: 6px solid black;
+    border-style: double;
+    height: 225px;
+    width: 165px;
+    background-color: rgb(251, 201, 201);
+    text-align: center;
+}
